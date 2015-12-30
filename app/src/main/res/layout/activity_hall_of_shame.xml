@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.corazza.fosco.dislike.HallOfShame"
+    android:background="#000"
+    >
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/hos_listOfContent"
+        android:scrollbars="none"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+
+            android:id="@+id/hos_MeButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="Gh"
+            android:gravity="center"
+            android:textColor="@color/greenS50B100"
+            android:background="@drawable/circletest"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="toGraphate"/>
+
+        <TextView
+
+            android:id="@+id/hos_PlusButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/greenS50B100"
+            android:background="@drawable/circletest"
+            android:clickable="true"
+            android:onClick="brandNewDislike"/>
+
+        <TextView
+
+            android:id="@+id/hos_SettingsButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="..."
+            android:gravity="center"
+            android:textColor="@color/greenS50B100"
+            android:background="@drawable/circletest"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="toTheTop"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

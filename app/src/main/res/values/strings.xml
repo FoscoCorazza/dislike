@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dislike</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <array name="imageTest">
+        <item>http://i.imgur.com/1ley5cN.png</item>
+        <item>https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/1390559_10201051638672948_1302108222_n.jpg?oh=19d5d4015f2f3997fadd4034eb2854ff&amp;oe=54CC0274&amp;__gda__=1422679214_c6e7c2cc15df4a25f97429f019e75029</item>
+        <item>https://scontent-a-mxp.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/1520823_10203062086576788_1934025280_n.jpg?oh=c04267f8e27bc5223dc1bbcc7197b0fc&amp;oe=54919985</item>
+        <item>http://i.imgur.com/f8zjbkl.png</item>
+        <item>http://i.imgur.com/jJxa6zP.png</item>
+        <item>http://i.imgur.com/wVCDCmb.png</item>
+        <item>http://i.imgur.com/t7xDjMv.png</item>
+        <item>http://i.imgur.com/baSNs3c.png</item>
+        <item>http://www.informatica-store.net/wp-content/uploads/2014/05/Retro-Cover-Nero-Iphone-4S-Ricambio-Compatibile.jpg</item>
+        <item>http://www.tafter.it/wp-content/uploads/2013/02/bruce-willis-2.jpeg</item>
+        <item>http://www.delgiglio.com/immagini/cavalier_king.jpg</item>
+        <item>http://i.ytimg.com/vi/Fye6CqafBsI/maxresdefault.jpg</item>
+        <item>http://internationalhotelsirmione.it/files/File/gardaland_logo.jpg</item>
+        <item>http://pc-gaming.it/wp-content/uploads/2014/01/hitman-absolution-hd-wallpoh.jpg</item>
+        <item>http://pianetadragonball.altervista.org/images/immagini-dragon-ball-gt/immagini-dragon-ball-gt-large/immagini-dragon-ball-gt-010.jpg</item>
+        <item>http://www.giovani.it/pictures/20111219/laura-pausini.jpeg</item>
+        <item>http://mtdata.ru/u18/photoF64F/20127393756-0/big.jpeg</item>
+        <item>http://img4.wikia.nocookie.net/__cb20110311183938/pokemon/images/c/cb/CuteyN.png</item>
+    </array>
+
+    <string name="title_activity_hall_of_shame">Dislike</string>
+    <string name="title_activity_hall_of_shame_detail">Hall Of Shame Detail</string>
+    <string name="title_activity_graph">GraphActivity</string>
+    <string name="show_more">Mostra altro</string>
+    <string name="me_neither">Nemmeno a me!</string>
+    <string name="changed_my_mind"><i>Ho cambiato idea!</i></string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_hall_of_shame_new">HallOfShameNew</string>
+
+</resources>

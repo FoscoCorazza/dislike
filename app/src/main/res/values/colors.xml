@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue_android">#ff33b5e5</color>
+    <color name="greenS50B100">#aaff7f</color>
+    <color name="redS50B100">#ff7f7f</color>
+    <color name="actionbar_background">#F333</color>
+    <color name="element_background">#3FFF</color>
+    <color name="application_background">#000</color>
+
+</resources>

@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    tools:context="com.corazza.fosco.dislike.SplashScreen"
+    android:background="@drawable/splash_screen_background">
+
+
+    <ImageView
+        android:id="@+id/letter0"
+        android:layout_gravity="center_vertical"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/letter0_d"/>
+
+    <ImageView
+        android:id="@+id/letter1"
+        android:layout_gravity="center_vertical"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/letter1_i"/>
+
+    <ImageView
+        android:id="@+id/letter2"
+        android:layout_gravity="center_vertical"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/letter2_s"/>
+
+    <ImageView
+        android:id="@+id/letter3"
+        android:layout_gravity="center_vertical"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/letter3_l"/>
+
+    <ImageView
+        android:id="@+id/letter4"
+        android:layout_gravity="center_vertical"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/letter4_i"/>
+
+    <ImageView
+        android:id="@+id/letter5"
+        android:layout_gravity="center_vertical"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/letter5_k"/>
+
+    <ImageView
+        android:id="@+id/letter6"
+        android:layout_gravity="center_vertical"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/letter6_e"/>
+
+
+</LinearLayout>

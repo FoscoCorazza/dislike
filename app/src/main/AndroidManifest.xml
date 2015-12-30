@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.corazza.fosco.dislike" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/CustomActivityThemeNoActionBar" >
+        <activity
+            android:name=".HallOfShame"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HallOfShameDetail"
+            android:label="@string/title_activity_hall_of_shame_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Graphate"
+            android:label="@string/title_activity_graph"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HallOfShameNew"
+            android:label="@string/title_activity_hall_of_shame_new"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

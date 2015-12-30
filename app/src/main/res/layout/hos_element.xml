@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/hos_element_whole"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:background="@drawable/green_border_rectangle"
+    >
+
+
+    <TextView
+        android:id="@+id/hos_textView_who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simone: non mi piace"
+        android:textSize="6pt"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/greenS50B100"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <AutoCompleteTextView
+        style="@android:style/Widget.TextView"
+        android:inputType="textCapSentences"
+        android:hint="Nome"
+        android:dropDownWidth="match_parent"
+        android:id="@+id/hos_textView_what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/changed_my_mind"
+        android:textColor="@color/redS50B100"
+        android:textSize="6pt"
+        android:enabled="false"
+        android:background="#0000"
+        android:layout_marginLeft="32dp"/>
+
+
+    <View
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.334dp"
+        android:background="@color/greenS50B100"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/hos_imageHeight"
+        android:scaleType="centerCrop"
+        android:id="@+id/hos_imageView_what"
+        android:src="@drawable/black"
+        android:adjustViewBounds="true"
+        android:contentDescription="Resource Image" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.334dp"
+        android:background="@color/greenS50B100"
+        />
+
+    <ViewFlipper
+        android:id="@+id/hos_bottomFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <com.corazza.fosco.dislike.adapters.AdvancedTextView
+
+            android:id="@+id/hos_textView_why"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/greenS50B100"
+            android:bufferType="spannable"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:scrollbars="vertical"
+            android:minLines="3"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            >
+
+            <TextView
+                android:id="@+id/hos_textButton_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text = "@string/show_more"
+                android:textColor="#000"
+                android:gravity = "center"
+                android:background="@color/redS50B100"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:id="@+id/hos_textButton_meNeither"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text = "@string/me_neither"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:gravity = "center"
+                android:background="@color/greenS50B100"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+
+    </ViewFlipper>
+
+    <TextView
+
+        android:id="@+id/hos_PlusButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:visibility="gone"
+        android:onClick="addDislike"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/greenS50B100"
+        android:background="@drawable/circletest"
+        android:clickable="true"/>
+
+</LinearLayout>
